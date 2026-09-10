@@ -1,0 +1,4 @@
+gene,M_value,verdict
+ef1a,0.31,stable
+rpl13a,0.34,stable
+gapdh,0.89,stage-variable - avoid alone

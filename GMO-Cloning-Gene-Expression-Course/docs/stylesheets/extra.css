@@ -1,0 +1,13 @@
+
+/* Course site styling */
+.md-typeset .hero { text-align: center; padding: 2rem 1rem 1.5rem; border-radius: .4rem;
+  background: linear-gradient(135deg, rgba(0,110,109,.14), rgba(0,150,136,.05)); }
+.md-typeset .hero h1 { margin-bottom: .2rem; }
+.md-typeset .hero .md-button { margin: .2rem; }
+a.modcard { display: block; padding: .8rem 1rem; border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .4rem; color: var(--md-typeset-color); font-size: .8rem; }
+a.modcard:hover { border-color: var(--md-primary-fg-color); box-shadow: 0 0 .4rem rgba(0,0,0,.08); }
+.md-typeset figure { margin: 1em 0; text-align: center; }
+.md-typeset figure img { max-width: 100%; border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .3rem; }
+.md-typeset figcaption { font-size: .72rem; color: var(--md-default-fg-color--light); }

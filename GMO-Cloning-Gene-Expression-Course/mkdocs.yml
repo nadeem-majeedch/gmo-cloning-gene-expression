@@ -1,0 +1,131 @@
+# MkDocs Material configuration for the course website.
+# Project site: https://nadeem-majeedch.github.io/gmo-cloning-gene-expression/
+site_name: GMO, Cloning Techniques & Developmental and Spatial Gene Expression
+site_description: >-
+  A complete university-level Molecular Biology teaching module: genetic engineering,
+  molecular cloning, vectors, GMO generation, CRISPR, and developmental & spatial gene expression.
+site_author: Course teaching team
+repo_url: https://github.com/nadeem-majeedch/gmo-cloning-gene-expression
+repo_name: nadeem-majeedch/gmo-cloning-gene-expression
+site_url: https://nadeem-majeedch.github.io/gmo-cloning-gene-expression/
+use_directory_urls: true
+strict: true
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  font: false
+  logo: material/dna
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: >
+  <b>GMO, Cloning Techniques &amp; Developmental and Spatial Gene Expression</b> · Instructor:
+  <b>Dr. Saira Azam</b>, Assistant Professor, Centre of Excellence in Molecular Biology,
+  University of the Punjab, Lahore · Educational resource for academic teaching and learning
+  under the MIT License — simulated datasets may not be cited as experimental data.
+
+nav:
+  - Home: index.md
+  - Modules:
+      - "Overview & learning path": index.md
+      - "01 - Introduction to Genetic Engineering": modules/01-Introduction-to-Genetic-Engineering.md
+      - "02 - DNA and Molecular Cloning Fundamentals": modules/02-DNA-and-Molecular-Cloning.md
+      - "03 - Cloning Vectors and Selection/Screening": modules/03-Cloning-Vectors-and-Selection.md
+      - "04 - Cloning Techniques": modules/04-Cloning-Techniques.md
+      - "05 - Expression Constructs and Reporter Genes": modules/05-Expression-Constructs-and-Reporter-Genes.md
+      - "06 - GMO Generation": modules/06-GMO-Generation.md
+      - "07 - Genome Editing and CRISPR": modules/07-Genome-Editing-and-CRISPR.md
+      - "08 - Developmental Gene Expression": modules/08-Developmental-Gene-Expression.md
+      - "09 - Spatial and Temporal Gene Expression": modules/09-Spatial-and-Temporal-Gene-Expression.md
+      - "10 - Gene Regulatory Networks": modules/10-Gene-Regulatory-Networks.md
+      - "11 - Gene-Expression Experimental Methods": modules/11-Gene-Expression-Experimental-Methods.md
+      - "12 - Data Analysis": modules/12-Data-Analysis.md
+      - "13 - Applications and Case Studies": modules/13-Applications-and-Case-Studies.md
+      - "14 - Ethics, Biosafety and Regulation": modules/14-Ethics-Biosafety-and-Regulation.md
+      - "15 - Advanced Topics": modules/15-Advanced-Topics.md
+  - Laboratory:
+      - "Overview": labs/index.md
+      - "Molecular Cloning Design Exercise": labs/Lab-01-DNA-Cloning-Design.md
+      - "Restriction Digestion Analysis (Simulation)": labs/Lab-02-Restriction-Digestion.md
+      - "Ligation and Transformation Workflow (Simulation)": labs/Lab-03-Ligation-and-Transformation.md
+      - "Colony PCR and Clone Screening (Simulation)": labs/Lab-04-Colony-PCR-and-Clone-Screening.md
+      - "Gene-Expression Analysis with qPCR Data": labs/Lab-05-Gene-Expression-Analysis.md
+      - "Reporter-Gene Analysis (Simulation + optional demonstration)": labs/Lab-06-Reporter-Gene-Analysis.md
+      - "Spatial Gene-Expression Interpretation (In-situ-style images/data)": labs/Lab-07-Spatial-Gene-Expression.md
+      - "Computational Gene-Expression Analysis (RNA-seq / single-cell / spatial)": labs/Lab-08-Computational-Gene-Expression.md
+      - "Capstone Project: From Construct to Expression Pattern": labs/Lab-09-Capstone-Project.md
+  - Assessments:
+      - "Overview": assessment/index.md
+      - "MCQs": assessment/MCQs.md
+      - "Short Questions": assessment/Short-Questions.md
+      - "Long Questions": assessment/Long-Questions.md
+      - "Viva Questions": assessment/Viva-Questions.md
+      - "Case Studies": assessment/Case-Studies.md
+      - "Answer Key": assessment/Answer-Key.md
+  - Projects: projects.md
+  - Guide:
+      - "Lab workbook": guide/workbook.md
+      - "Cheat sheet": guide/cheat-sheet.md
+      - "FAQs": guide/faqs.md
+  - Downloads:
+      - "Resources & downloads": downloads/index.md
+      - "All datasets": downloads/datasets.md
+      - "Cloning data": downloads/cloning-data.md
+      - "Gene-expression data": downloads/gene-expression-data.md
+      - "Spatial-expression data": downloads/spatial-expression-data.md
+      - "Diagram gallery": downloads/diagrams.md
+  - References: references.md
+  - About: about.md

@@ -1,0 +1,7 @@
+construct,region_notochord,region_somite,region_neuraltube
+shha_promoter_GFP,894,89,79
+shha_promoter_GFP,803,83,55
+shha_promoter_GFP,972,94,68
+minimal_GFP_control,849,95,66
+minimal_GFP_control,965,107,64
+minimal_GFP_control,1029,62,78

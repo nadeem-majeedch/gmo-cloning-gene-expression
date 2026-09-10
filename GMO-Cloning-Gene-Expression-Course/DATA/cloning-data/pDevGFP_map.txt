@@ -1,0 +1,6 @@
+pDevGFP - teaching vector map (SIMULATED, not a real plasmid)
+Total size: 3200 bp | Marker: kanR | ori: pUC-class (high copy)
+MCS (all unique): EcoRI(1000) - BamHI(1050) - HindIII(1120) - XhoI(1200)
+lacZ alpha: 1400-1700 | T7 primer site: 950 | SP6 primer site: 1250
+Designed for Lab-01: clone shha promoter (850 bp) into EcoRI+HindIII.
+NOTE: vector-only teaching artifact; contains no functional pathogenic element.

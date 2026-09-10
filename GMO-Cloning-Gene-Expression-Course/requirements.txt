@@ -1,0 +1,3 @@
+# Site toolchain (GitHub Actions installs exactly this).
+mkdocs>=1.6
+mkdocs-material>=9.5

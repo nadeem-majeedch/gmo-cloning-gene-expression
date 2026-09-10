@@ -1,0 +1,7 @@
+sample,condition,batch
+WT_rep1,WT,1
+WT_rep2,WT,1
+WT_rep3,WT,2
+KO_rep1,KO,1
+KO_rep2,KO,2
+KO_rep3,KO,2

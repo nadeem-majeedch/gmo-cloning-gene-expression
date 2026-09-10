@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node tooling caches (if HTML slides tooling is used)
+node_modules/
+
+# Preview/dev artifacts (never commit)
+*.log
+*.tmp
+.html/slides/
+.slides-preview/
+freebuff-slides.yml
+slides.md
+build/
+dist/
+.ipynb_checkpoints/
+
+# MkDocs build output (docs/ source IS committed; site/ is regenerated)
+site/
+.pagetest/
