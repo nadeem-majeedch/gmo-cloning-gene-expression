@@ -378,6 +378,8 @@ START HERE -> Fundamentals (01-02) -> Molecular cloning (03-04) -> Vectors, expr
 | Assessment package + instructor answer key | [Assessments](assessment/index.md) |
 | Semester projects | [Projects](projects.md) |
 | References (~75 curated sources) | [References](references.md) |
+*Companion course on this site: **[GMO Environment and Risk Assessments](risk/index.md)** -
+environmental risk assessment of GMOs, taught with the same evidence-first approach.*
 """
     write("index.md", home)
 
@@ -691,6 +693,19 @@ nav:
         dst = os.path.join(DOCS, "assets", d)
         shutil.copytree(src, dst, ignore=shutil.ignore_patterns("__pycache__", ".ipynb_checkpoints", "README.md"))
         print("  copied", d, "-> docs/assets/" + d)
+
+    # ---- companion course: GMO Environment and Risk Assessments ----------
+    # Extends the same docs/ tree and merges its nav tabs into mkdocs.yml.
+    risk_builder = os.path.join(os.path.dirname(COURSE),
+                                "GMO-Environment-and-Risk-Assessments",
+                                "tools", "build_site_risk.py")
+    if os.path.isfile(risk_builder):
+        _g = {"__name__": "risk_build", "__file__": risk_builder}
+        exec(compile(open(risk_builder, encoding="utf-8").read(), risk_builder, "exec"), _g)
+        if callable(_g.get("build")):
+            _g["build"]()
+    else:
+        print("  (companion risk course not found - single-course site)")
     print("done.")
 
 

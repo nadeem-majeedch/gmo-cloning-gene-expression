@@ -127,5 +127,75 @@ nav:
       - "Gene-expression data": downloads/gene-expression-data.md
       - "Spatial-expression data": downloads/spatial-expression-data.md
       - "Diagram gallery": downloads/diagrams.md
+  - Risk Assessments:
+      - "Course home": risk/index.md
+      - "Capstone project": risk/capstone.md
+      - "01 - Introduction to GMO Risk Assessment": risk/modules/01-Introduction-to-GMO-Risk-Assessment.md
+      - "02 - Hazard, Risk and Exposure": risk/modules/02-Hazard-Risk-and-Exposure.md
+      - "03 - The GMO Environmental Risk-Assessment Framework": risk/modules/03-GMO-Environmental-Risk-Assessment-Framework.md
+      - "04 - Molecular Characterization": risk/modules/04-Molecular-Characterization.md
+      - "05 - Phenotypic and Compositional Assessment": risk/modules/05-Phenotypic-and-Compositional-Assessment.md
+      - "06 - Gene Flow and Introgression": risk/modules/06-Gene-Flow-and-Introgression.md
+      - "07 - Persistence, Weediness and Invasiveness": risk/modules/07-Persistence-Weediness-and-Invasiveness.md
+      - "08 - Non-Target Organisms": risk/modules/08-Non-Target-Organisms.md
+      - "09 - Soil Ecosystems and Microbial Interactions": risk/modules/09-Soil-Ecosystems-and-Microbial-Interactions.md
+      - "10 - Biodiversity and Food Webs": risk/modules/10-Biodiversity-and-Food-Webs.md
+      - "11 - Resistance Evolution": risk/modules/11-Resistance-Evolution.md
+      - "12 - Herbicide Resistance and Weed Management": risk/modules/12-Herbicide-Resistance-and-Weed-Management.md
+      - "13 - Environmental Fate and Exposure": risk/modules/13-Environmental-Fate-and-Exposure.md
+      - "14 - Food and Feed Safety": risk/modules/14-Food-and-Feed-Safety.md
+      - "15 - Allergenicity and Toxicity Assessment": risk/modules/15-Allergenicity-and-Toxicity-Assessment.md
+      - "16 - Unintended Effects and Uncertainty": risk/modules/16-Unintended-Effects-and-Uncertainty.md
+      - "17 - Risk Characterization": risk/modules/17-Risk-Characterization.md
+      - "18 - Risk Management": risk/modules/18-Risk-Management.md
+      - "19 - Environmental Monitoring": risk/modules/19-Environmental-Monitoring.md
+      - "20 - Post-Market and Post-Release Monitoring": risk/modules/20-Post-Market-and-Post-Release-Monitoring.md
+      - "21 - Risk Communication": risk/modules/21-Risk-Communication.md
+      - "22 - Regulatory Frameworks": risk/modules/22-Regulatory-Frameworks.md
+      - "23 - Case Studies": risk/modules/23-Case-Studies.md
+      - "24 - Data Analysis for GMO Risk Assessment": risk/modules/24-Data-Analysis.md
+      - "25 - Advanced Topics": risk/modules/25-Advanced-Topics.md
+  - Risk Practicals:
+      - "Overview": risk/labs/index.md
+      - "GMO Risk-Assessment Terminology and Hazard Identification": risk/labs/Lab-01-Terminology-and-Hazard-Identification.md
+      - "Risk-Assessment Workflow Exercise": risk/labs/Lab-02-Risk-Assessment-Workflow.md
+      - "Gene-Flow Data Analysis": risk/labs/Lab-03-Gene-Flow-Data-Analysis.md
+      - "Non-Target Organism Data Analysis": risk/labs/Lab-04-Non-Target-Data-Analysis.md
+      - "Resistance Evolution Simulation": risk/labs/Lab-05-Resistance-Evolution-Simulation.md
+      - "Environmental Exposure Analysis": risk/labs/Lab-06-Environmental-Exposure-Analysis.md
+      - "Compositional Assessment Data Interpretation": risk/labs/Lab-07-Compositional-Assessment.md
+      - "Dose–Response Data Analysis": risk/labs/Lab-08-Dose-Response-Analysis.md
+      - "Risk-Ranking Matrix": risk/labs/Lab-09-Risk-Ranking-Matrix.md
+      - "Uncertainty and Sensitivity Analysis": risk/labs/Lab-10-Uncertainty-Sensitivity-Analysis.md
+      - "Case-Study Regulatory Assessment": risk/labs/Lab-11-Case-Study-Regulatory-Assessment.md
+      - "Capstone: GMO Environmental Risk Assessment": risk/labs/Lab-12-Capstone-Environmental-Risk-Assessment.md
+  - Risk Assessments Bank:
+      - "Overview": risk/assessment/index.md
+      - "Multiple-choice questions": risk/assessment/MCQs.md
+      - "Short-answer questions": risk/assessment/Short-Questions.md
+      - "Long-answer questions": risk/assessment/Long-Questions.md
+      - "Viva questions": risk/assessment/Viva-Questions.md
+      - "Case-based questions": risk/assessment/Case-Based-Questions.md
+      - "Data-interpretation questions": risk/assessment/Data-Interpretation-Questions.md
+      - "Instructor answer key": risk/assessment/Answer-Key.md
+  - Risk Guide:
+      - "Practical workbook": risk/guide/workbook.md
+      - "Cheat sheet": risk/guide/cheat-sheet.md
+      - "FAQs": risk/guide/faqs.md
+      - "Workbook (companion)": risk/guide/workbook.md
+  - Risk Downloads:
+      - "Resources & downloads": risk/downloads/index.md
+      - "All datasets": risk/downloads/datasets.md
+      - "Diagram gallery": risk/downloads/diagrams.md
+      - "Dataset - composition": risk/downloads/composition.md
+      - "Dataset - dose-response": risk/downloads/dose-response.md
+      - "Dataset - exposure": risk/downloads/exposure.md
+      - "Dataset - gene-flow": risk/downloads/gene-flow.md
+      - "Dataset - non-target": risk/downloads/non-target.md
+      - "Dataset - resistance": risk/downloads/resistance.md
+      - "Dataset - risk-matrix": risk/downloads/risk-matrix.md
+      - "Dataset - soil": risk/downloads/soil.md
+      - "Dataset - uncertainty": risk/downloads/uncertainty.md
+      - "References": risk/references.md
   - References: references.md
   - About: about.md

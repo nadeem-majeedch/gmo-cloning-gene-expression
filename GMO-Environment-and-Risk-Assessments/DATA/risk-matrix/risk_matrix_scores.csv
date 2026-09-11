@@ -1,0 +1,27 @@
+scenario_id,scenario,likelihood_1to5,consequence_1to5
+S01,Bt pollen reaching milkweed adjacent to Bt maize,3,2
+S02,Gene flow to compatible wild relative within 200 m,4,2
+S03,Gene flow to wild relatives (nearest 800 km away),1,2
+S04,Volunteer GM plants in following rotation,4,1
+S05,Drought-stressed volunteer survival + seed set,2,2
+S06,Resistance evolution in target pest (no refuge),5,4
+S07,Resistance evolution (structured 20% refuge),2,4
+S08,Glyphosate-resistant weeds from continuous HT system,5,4
+S09,Transient protein in soil rhizosphere,5,1
+S10,DNA uptake by soil bacteria (HGT),2,1
+S11,Soil community shifts beyond natural variation,2,2
+S12,Non-target predator exposed via herbivore prey,3,2
+S13,Pollinator exposed via pollen foraging,3,1
+S14,Aquatic leaf-litter exposure (stream adjacent),2,2
+S15,Compositional change altering feed quality,1,3
+S16,New allergen in harvested product,1,5
+S17,Unintended metabolic byproduct (novel metabolite),2,3
+S18,Stacked-trait interaction (two proteins),2,2
+S19,GM microorganism release persisting in soil,2,4
+S20,Horizontal transfer of antibiotic marker to gut flora,1,2
+S21,Monarch-like migratory larva on Wayside plants,2,2
+S22,Trait improving wild-relative seed dormancy,1,4
+S23,Loss of refuge compliance over seasons,3,4
+S24,Gene-edited (sdRNA) trait with no novel protein,2,1
+S25,Monitoring fails to detect early resistance,2,4
+S26,Crop failure dispersing GM seed off-site,2,2

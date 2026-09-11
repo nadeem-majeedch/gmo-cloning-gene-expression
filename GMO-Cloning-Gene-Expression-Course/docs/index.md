@@ -83,3 +83,5 @@ START HERE -> Fundamentals (01-02) -> Molecular cloning (03-04) -> Vectors, expr
 | Assessment package + instructor answer key | [Assessments](assessment/index.md) |
 | Semester projects | [Projects](projects.md) |
 | References (~75 curated sources) | [References](references.md) |
+*Companion course on this site: **[GMO Environment and Risk Assessments](risk/index.md)** -
+environmental risk assessment of GMOs, taught with the same evidence-first approach.*

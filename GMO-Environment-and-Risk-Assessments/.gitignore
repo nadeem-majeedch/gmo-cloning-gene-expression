@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# MkDocs build output (docs/ source IS committed; site/ is regenerated)
+site/
+
+# Preview/dev artifacts (never commit)
+*.log
+*.tmp
+.ipynb_checkpoints/

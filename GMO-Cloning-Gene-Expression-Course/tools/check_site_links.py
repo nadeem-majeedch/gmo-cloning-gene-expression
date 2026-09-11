@@ -38,7 +38,28 @@ for page in sorted(html_files):
         if not path:
             continue
         checked += 1
-        target = os.path.normpath(os.path.join(os.path.dirname(page), path))
+        # Normalize ../ segments against the page's URL directory (the page's site
+        # location), not against the on-disk path - with use_directory_urls a page
+        # like site/risk/index.html is served at /risk/ and relative URLs must be
+        # resolved from there, not from the file's parent.
+        base_dir = os.path.dirname(page)
+        rel_dir = os.path.relpath(base_dir, SITE).replace(os.sep, "/")
+        served_at = rel_dir if rel_dir != "." else ""
+        # site/risk/index.html is served at /risk/ (no extra segment for index.html)
+        if os.path.basename(page) != "index.html" and served_at:
+            served_at = served_at  # already the page's directory
+        url_dir = served_at
+        # resolve: start at the served directory and walk the URL's segments
+        segs = url_dir.split("/") if url_dir else []
+        for seg in path.split("/"):
+            if seg in ("", "."):
+                continue
+            if seg == "..":
+                if segs:
+                    segs.pop()
+            else:
+                segs.append(seg)
+        target = os.path.join(SITE, *segs) if segs else SITE
         if os.path.isdir(target):
             # directory URLs: index.html inside (use_directory_urls)
             target = os.path.join(target, "index.html")
