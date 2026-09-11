@@ -5,11 +5,13 @@
 - 🌐 **Online course:** https://nadeem-majeedch.github.io/gmo-cloning-gene-expression/
 - 📚 **All course materials, website source and build scripts:** [`GMO-Cloning-Gene-Expression-Course/`](GMO-Cloning-Gene-Expression-Course/) — see its [README](GMO-Cloning-Gene-Expression-Course/README.md) for the full guide.
 
+- 🌐 **Online course:** https://nadeem-majeedch.github.io/gmo-cloning-gene-expression/risk/
+- 📚 **All course materials, website source and build scripts:** [`GMO-Environment-and-Risk-Assessments/`](GMO-Environment-and-Risk-Assessments/) — see its [README](GMO-Environment-and-Risk-Assessments/README.md) for the full guide.
 ## Instructor
 
-**Dr. Saira Azam**
-Assistant Professor
-Centre of Excellence in Molecular Biology
+**Dr. Saira Azam** \
+Assistant Professor \
+Centre of Excellence in Molecular Biology \
 University of the Punjab, Lahore.
 
 ## Deployment
